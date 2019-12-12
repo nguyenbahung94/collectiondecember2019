@@ -1,3 +1,2 @@
-# collectiondecember2019
-Improve skill 
+# collectiondecember2019, Improve skill
 Learn and apply koin
