@@ -10,6 +10,14 @@ import org.koin.core.context.startKoin
 import org.koin.core.logger.Level
 
 class MyCustomApplication : Application() {
+    companion object {
+        private var instance: MyCustomApplication? = null
+
+        fun applicationContext(): MyCustomApplication {
+            return instance as MyCustomApplication
+        }
+    }
+
     override fun onCreate() {
         super.onCreate()
         startKoin {
